@@ -5,7 +5,7 @@
     }
     .container {
       background: #077ac6;
-      border: 2px solid #333;
+      border: 2px solid #ffffff;
       padding: 20px 30px;
       width: 600px;
       margin: auto;
@@ -62,4 +62,5 @@
         display: block;
         align-items: center;
         gap: 10px;
+
     }
