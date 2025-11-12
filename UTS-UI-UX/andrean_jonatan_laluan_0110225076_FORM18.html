@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UTS - Andrean</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Kelola Ruangan</h2>
+    <form>
+      <div class="form-group">
+        <label for="nama">Nama Ruangan :</label>
+        <input type="text" id="nama" name="nama">
+      </div>
+
+      <div class="form-group">
+        <label for="kategori">Kategori :</label>
+        <select id="kategori" name="kategori">
+          <option value="aula">Aula</option>
+          <option value="kelas">Kelas</option>
+          <option value="lab">Laboratorium</option>
+          <option value="meeting">Ruang Meeting</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="deskripsi">Deskripsi Ruangan :</label>
+        <textarea id="deskripsi" name="deskripsi"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label>Fasilitas Ruangan :</label>
+        <div class="checkbox-group"><input type="checkbox" id="sound" name="fasilitas" value="sound"> <label for="sound">Sound System</label></div>
+        <div class="checkbox-group"><input type="checkbox" id="wifi" name="fasilitas" value="wifi"> <label for="wifi">Wifi</label></div>
+        <div class="checkbox-group"><input type="checkbox" id="layar" name="fasilitas" value="layar"> <label for="layar">Layar Besar</label></div>
+      </div>
+
+      <div class="form-group">
+        <label for="kapasitas">Kapasitas :</label>
+        <input type="text" id="kapasitas" name="kapasitas">
+      </div>
+
+      <div class="form-group">
+        <label for="lokasi">Lokasi Ruangan :</label>
+        <input type="text" id="lokasi" name="lokasi">
+      </div>
+
+      <div class="buttons">
+        <button type="submit">Simpan</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
